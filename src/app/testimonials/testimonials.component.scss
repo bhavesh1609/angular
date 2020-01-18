@@ -1,0 +1,18 @@
+.Testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.chats {
+    display: flex;
+}
+
+@media (max-width:767px){
+    .chats{
+        flex-direction: column;
+    }
+}
+

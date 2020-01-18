@@ -1,0 +1,49 @@
+body{
+    background: #f1f1f1;
+}
+.banner {
+    background: url(../assets/images/i1.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+h3.banner-intro {
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+.hero-banner {
+    display: flex;
+}
+
+.block-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    img{
+        width: 100%;
+    }
+    .text {
+        flex-basis: 35%;
+    }
+}
+
+section.forms {
+    background: #000;
+    color: #fff;
+    padding: 30px;
+}
+
+@media (max-width:767px){
+    .hero-banner, .block-image{
+        flex-direction: column;
+    }
+    h3.banner-intro {
+        width: 80%;
+    }
+}

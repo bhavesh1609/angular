@@ -1,0 +1,14 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background: #000 !important;
+    padding: 0 15px;
+    align-items: center;
+    .menus{
+        display: flex;
+    }
+}
+
+.navbar-light .navbar-toggler{
+    background: #fff;
+}

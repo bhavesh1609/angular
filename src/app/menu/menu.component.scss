@@ -1,0 +1,17 @@
+.menu{
+    ul{
+        display: inline-flex;
+        list-style: none;
+        margin: 5px;
+        li, li a{
+            color: #ffffff;
+            padding: 0 10px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #fff important;
+}
